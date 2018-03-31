@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+0.  What are your names?
+
+1.  How many of y'all have taken CS?
+
+2.  How many of y'all are interested in business?
+                                        psychology?
+
+3.  How many of y'all consider yourselves "shy" ?
+
+4.  How many of you want to get into Columbia?
+
