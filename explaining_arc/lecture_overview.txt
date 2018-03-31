@@ -1,37 +1,209 @@
 
-Why should you care about computer science?
-        (Lecture overview)
-    1.  Why technology is powerful, and why computers are especially powerful
-    2.  How to make money knowing these things
-The actual computer science:
-    A.  What's an Algorithm?
-        1.  Why they're powerful
-            A)  Algorithms are basically education.  You teach the computer to do something, then it becomes a nice little worker bee
-        2.  Formally, "an unambiguous set of instructions"
-        3.  Self-driving car code
-    B.  Recursion
-        1.  What is recursion?
-            A)  Defining something in terms of itself
-            B)  In mathematics, called "induction"
-        2.  Factorial is a good use of recursion
-        3.  Fibonacci is a bad  use of recursion
-            A)  Why?
-                1)  I bet you can remember
-                2)  This is key to understanding recursion
-    C.  Arc Lisp
-        1.  Functions
-        2.  Macros
 
-More resources:
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                    (Lecture overview)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    Note: I'm going to go very very fast.  This is intentional.  You are not stupid.  I am not going to treat you like you're stupid.  That's why America is losing to China: because teachers and American parents treat kids like they're stupid and can't handle responsibilities.
+    You will not understand everything I say.  That is also intentional.  I will send you a recording of the lecture after class.  I cannot baby a class of 20 people when I only have one hour to teach.  The smartest student would be bored out of her/his mind.
+    It is my job to teach you
+        A)  Big picture concepts
+        B)  Things that you won't learn in class (take a proper class for those)
+        C)  Intro courses should be very broad, easy to understand, and cut out irrelevant details that you won't need later in life.  As someone older than you who has made money in software, I can teach you better than a lot of your professors who have never professionally written software.  They can teach you theory; I will teach you practice.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    Overview of the overview:
+        1.  Arc Lisp is the best designed language in the world
+        2.  Learning about data structures and algorithmic thinking give you power
+        3.  Recursion and pointers are the trickiest parts of CS; I will only cover recursion today.  Take a class on C or Operating Systems if you want to learn about pointers.  
+        4.  The startup is, in my opinion, the pinnacle of human achievement.  There has never been an easier way for smart, hard-working people to make money in the history of the world than the Silicon Valley Startup.
+            A.  Paul Graham started YCombinator, which helps kids like us start startups
+            B.  Paul Graham also created Arc Lisp.  That's not an accident; the best of the best care enough to make beautiful things
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    Why should you care about computer science?
+
+        1.  Why technology is powerful, and why computers are especially powerful
+            A.  Tech is especially powerful if it scales
+
+        2.  How to make money knowing these things
+            A.  Get a job or start a company
+            B.  If you're self-motivated, it helps to work at a small startup where you have to learn everything
+            C.  But having a cushy life at Google or Facebook is not a terrible way to go either; very secure, have some fun
+            D.  I'm a startup guy myself
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    The actual computer science:
+        A.  What's an Algorithm?
+            1.  Why they're powerful
+                A)  Algorithms are basically education.  You teach the computer to do something, then it becomes a nice little worker bee
+            2.  Formally, "an unambiguous set of instructions"
+            3.  Self-driving car code
+        B.  Recursion
+            1.  What is recursion?
+                A)  Defining something in terms of itself
+                B)  In mathematics, called "induction"
+            2.  Factorial is a good use of recursion
+            3.  Fibonacci is a bad  use of recursion
+                A)  Why?
+                    1)  I bet you can remember
+                    2)  This is key to understanding recursion, trees, hashtables, and big-O notation
+            4.  Big-O analysis of these algorithms
+                A)  Factorial is good b/c like a line
+                    1)  O(n)
+                    2)  This is fast like a Hash Table
+                B)  Fibonacci is bad  b/c like a cancerous growth that takes over the whole computer
+                    1)  O(2^n)
+        C.  Arc Lisp
+            1.  Functions
+            2.  Macros (not in any other programming language!)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    More resources:
+        (you can teach yourself to make
+         millions of dollars!)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    0.  Intro CS
+        A.  What I just tried to do but better (with pictures as well):
+            0)  https://www.youtube.com/watch?v=SzJ46YA_RaA
+        B.  How to actually learn how to code.  Coding is very different from just thinking about these algorithms.  It takes time for your body and fingers to get used to programming; it's like understanding the meaning of a proof vs. being able to actually write the proof.  Writing proofs takes time and practice; understanding the big-picture of why a proof matters is easy as long as you're good with language.
+            0)  https://www.youtube.com/watch?v=z0m9O39IRPE
+            1)  Picking a first programming language (more practical for immediate job-getting than Lisp):
+                A)  https://www.youtube.com/watch?v=2EaopRDxNrw
+    
+
     1.  Data structures concepts
         A.  https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1
         B.  The dumbed-down version is in "Cracking the Coding Interview"
             1)  I won't literally tell you where to pirate this, but it's available online
             2)  This book is also good because it teaches you how to get a job.  Interviewing is a pain, and this helps you through the process
+
     2.  Arc Lisp
         A.  http://tryarc.org/
         B.  Beginners' tutorial:  http://old.ycombinator.com/arc/tut.txt
         C.  Next steps in learning:  https://arclanguage.github.io/ref/
         D.  Why learn Arc instead of some other language?
             1)  http://www.paulgraham.com/hundred.html
+
+    3.  Pointers
+        A.  AP and OS at Columbia are both excellent.  Jason Nieh is one of the best OS professors in the country, and Jae Woo Lee studied physics at Columbia.  Both excellent excellent teachers, and more importantly, they will teach you things that will make you money and let you have fun
+
+    4.  Recursion
+        A.  Do more Arc.  Other Lisps do it well too; see Scheme
+        B.  https://mitpress.mit.edu/sicp/full-text/book/book.html
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Below, I try to give y'all a view of what's coming down the road.  Here's more info: https://en.wikipedia.org/wiki/Outline_of_computer_science#Subfields
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    5.  Tried and true:
+        A.  These are more established fields.  If you're a perfectionist type who prefers to be an expert at one thing and likes security more than potential for huge fortunes, go with one of these:
+            0)  Databases
+                A)  Very good way to make money.  See Larry Ellison (https://en.wikipedia.org/wiki/Oracle_Corporation)
+                B)  More people need to touch SQL than any other programming language on StackOverflow.com
+                C)  If you learn this stuff, you can also teach your non-CS friends how to do it for big $
+            1)  Systems programming
+                A)  C, C++
+                B)  Low-level
+                C)  Operating Systems
+                    1.  ie. "Windows 10," "Mac OS X," "Arch Linux," "Ubuntu"
+                D)  "Computer Architecture"
+            2)  Algorithms and data structures
+                A)  If you invent a new one of these, you could be famous
+                B)  If you invent a new one of these that can be turned into a business, you could rich AND famous
+            3)  "Machine Learning" (basically a lot of statistics)
+                A)  Linear Regression
+                B)  Similar statistical techniques
+            4)  Security
+                A)  Cryptography (good for fans of math)
+            5)  Graphics
+                A)  These days, related to "Computer Vision"
+                B)  Lots of Linear Algebra here
+                    A.  Matrices are big boxes of numbers, just like pictures
+                    B.  "Convolution" is an algorithm to know
+            6)  Language design
+                A)  Compilers
+                    1.  I don't know much about this, honestly, other than what I've read Paul Graham say.  They have a good class at Columbia for this, though, called "PLT" and taught by the notorious Stephen Edwards in OCaml
+                B)  Automata theory
+                    1.  What a computer theoretically is.  A little math-y for those of you who are fans of math and logic
+            7)  Scientific computing
+                A)  Often related to Machine Learning these days
+                B)  Can also run simulations for physics, chem, bio
+                C)  All the libraries are in Python these days:
+                    1.  Numpy, Keras, Tensorflow, Scikit-learn, SciPy, Pandas, Matplotlib (this is just plotting data), Scrapy
+            8)  Software engineering
+                A)  "Agile" is about how to write code fast
+                B)  Don't listen to what they teach you in schools about "Design."  You can figure out how to design things on your own.  The idea that some academic who hasn't written industrial software can teach you how to write good industrial software is so full of shit it's not even funny.
+            9)  CS Theory
+                A)  More fun for y'all math-y proof-y types out there
+                B)  More on P vs. NP below; it's one of the biggest unsolved math problems
+                    1.  Don't try to prove this if you JUST want to get rich.  There are so many easier ways.  But if you really like math and you wouldn't mind also being famous, this is a good thing to study.
+
+
+    6.  Fields of the future
+        A.  It's unclear which algorithms will rule tomorrow.  Here are a few on the cutting edge:
+            1)  GANs (https://www.youtube.com/watch?v=sgHdUYHGvtA&t=1073s)
+                A)  Related buzzwords:
+                    1.  Deep Learning
+                        a.  http://www.asimovinstitute.org/neural-network-zoo/
+                    2.  Neural Networks
+                        b.  (same thing as Deep Learning)
+                        a.  http://www.asimovinstitute.org/neural-network-zoo/
+                    3.  Machine Learning
+                    4.  Artificial Intelligence (AI)
+                        A.  This isn't actually human intelligence
+                        B.  But it might become really good
+                    5.  Computer Vision
+                        A.  Self-driving cars
+                    6.  NLP
+                        A.  How computers "understand" language
+                    7.  Knowledge Representation and Reasoning
+                        A.  How we represent knowledge mathematically
+            2)  Blockchain
+                A)  A new form of money
+            3)  DevOps
+                A)  Basically "Agile" development
+            4)  Internet of Things
+                A)  Put an internet in your glove!
+                B)  More generally, make your stuff use the internet
+            5)  Robotics
+                A)  You know what a robot is; you're not stupid
+            6)  P vs. NP
+                A)  Highly mathematical and technical, but also the basics are understandable to the layman
+                    1.  Dumbed-down version: "can we prove it's impossible to solve really big Sudokus really fast?"
+                B)  https://www.youtube.com/watch?v=YX40hbAHx3s
+            7)  Strong AI
+                A)  Also variously called: AGI, General Intelligence
+                B)  When the computer can think like we can, here's hoping it's nice.  I'm definitely hoping it will be, but you never know, right?
+                C)  Elon Musk is peripherally working on this
+
+
+Takeaways:
+    1)  An algorithm is unambiguous instructions
+    2)  Lisp is the best programming language, and Arc Lisp is the best Lisp
+    3)  If you understand algorithms, you'll understand how to rule the world, or at least make a LOT of money
+        a)  Certain algorithms are faster than others, and these can be analyzed using "Big-O" analysis.
+    4)  Startups are the best way to become rich and famous for either
+        a)  Psychology-minded people
+        b)  Technical people
+        c)  You probably don't have a specialty yet, but if you know anything about either computers or psychology, it's never too late to start specializing
+    5)  Strong AI is one of the most biggest things to look out for in the future.  This goes beyond money; this is about the fate of the universe.
+    6)  Math, physics, statistics, computers, and first-principles logic are the best way to get pretty much anything you want in this world.  Sociopathy is pretty decent too.  So if you're very smart socially, it'll probably pay to take some psych courses, read some books, and practice understanding people
+    7)  A secret: how Nathan got in to Columbia University
+
+
+
+
+
+
+
+
+
+
+
+
+
 
