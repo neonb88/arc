@@ -33,7 +33,10 @@
  (if (is n 1)
      1
      (* n (factorial (- n 1)))))
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  This version is shorter
+;    As you write more code, you'll tend towards liking short code
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (def fact (n)
  (if (is n 1)
      1
@@ -49,6 +52,14 @@
             1
             (+ (fibonacci (- n 1)) (fibonacci (- n 2)))))
 
+;  Shorter version: in code, shorter is better
+(def fib (n)
+ (if (is n 0)
+     1
+     (is n 1)
+            1
+            (+ (fib (- n 1)) (fib (- n 2)))))
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;  How to use macros  
 ;    (macros are not in other programming languages!
@@ -56,6 +67,10 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (mac foo ()
  (list '+ 1 2))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Basically, a macro is powerful because it lets you do more things with less typing.
+;    It also lets you do things you can't do in Java and other stupid languages they'll teach you in school
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
 

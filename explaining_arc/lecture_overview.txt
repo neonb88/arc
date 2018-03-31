@@ -1,0 +1,37 @@
+
+Why should you care about computer science?
+        (Lecture overview)
+    1.  Why technology is powerful, and why computers are especially powerful
+    2.  How to make money knowing these things
+The actual computer science:
+    A.  What's an Algorithm?
+        1.  Why they're powerful
+            A)  Algorithms are basically education.  You teach the computer to do something, then it becomes a nice little worker bee
+        2.  Formally, "an unambiguous set of instructions"
+        3.  Self-driving car code
+    B.  Recursion
+        1.  What is recursion?
+            A)  Defining something in terms of itself
+            B)  In mathematics, called "induction"
+        2.  Factorial is a good use of recursion
+        3.  Fibonacci is a bad  use of recursion
+            A)  Why?
+                1)  I bet you can remember
+                2)  This is key to understanding recursion
+    C.  Arc Lisp
+        1.  Functions
+        2.  Macros
+
+More resources:
+    1.  Data structures concepts
+        A.  https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1
+        B.  The dumbed-down version is in "Cracking the Coding Interview"
+            1)  I won't literally tell you where to pirate this, but it's available online
+            2)  This book is also good because it teaches you how to get a job.  Interviewing is a pain, and this helps you through the process
+    2.  Arc Lisp
+        A.  http://tryarc.org/
+        B.  Beginners' tutorial:  http://old.ycombinator.com/arc/tut.txt
+        C.  Next steps in learning:  https://arclanguage.github.io/ref/
+        D.  Why learn Arc instead of some other language?
+            1)  http://www.paulgraham.com/hundred.html
+
